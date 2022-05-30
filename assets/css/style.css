@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.dflex > div{
+    display: flex;
+    width: 100%;
+}
+:root {
+    --cp: red;
+}
+header {
+    width: 90%;
+    margin: auto;
+    
+}
+.menuTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menuTop ul {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    list-style: none;    
+}
+.menuTop ul a {
+    text-decoration: none; 
+    color: var(--cp);   
+}
+.topo {
+    margin-left: 0px;
+}
+.infosAlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.setoresdeAtuacao button{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.setor {
+    text-align: center;
+    width: 250px;
+    margin: 10px auto;    
+    /* border: var(--cp) solid 1px; */
+    
+}
+.setor img{    
+    border-radius: 50%;
+    border: var(--cp) solid 12px;
+}
+.setor div h3 {
+    text-align: center;
+    
+}
+.heroAlex {
+    background: url(/assets/img/hero-alex-brasil-online.jpeg);
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.facaOr {
+    background-color: yellow;
+    padding: 20px;
+}
+.titlesBG h1{
+    font-size: 45px;
+    margin: 20px auto;
+}
+.titlesBG h2{
+    font-size: 40px;
+    margin: 20px auto;
+}
+.titlesBG h3{
+    font-size: 30px;
+    margin: 20px auto;
+}
+.titlesBG p{
+    font-size: 25px;
+    line-height: 2rem;
+}
+.heroAlex div {
+    padding-top: 15%;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 40px;
+}
+form input{
+    display: flex;
+}
+.botaoOr {
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: var(--cp);
+    border: none;
+    color: white;
+}
+.sobreABG {
+    margin: auto;    
+    font-size: 25px;
+    display: flex;
+    background-color: #080066;
+    padding: 10px 30px;
+    color: white;
+    justify-content: space-between;
+}
+.sobreABG img{
+    width: 25%;    
+    padding-top: 2%;
+    /* border: black 1px solid; */
+    margin-left: 10%;
+    
+}
+
+.sobreABG div{
+    width: 50%;
+    align-items: center;
+    padding-top: 5%;    
+}
+.sobreAlex {
+    display: flex;
+}
+.apresentaSetores {
+    width: 80%;
+    margin: auto;
+}
+.setoresdeAtuacao {
+
+}
+.formContato {
+    display: flex;
+}
+.formulario {
+    width: 80%;
+    margin: auto;
+    /* border: black solid 1px; */
+}
+.formContato form {
+    width: 40%;
+    margin: 0px;
+    align-items: center;
+}
+.contatoN {
+    background-color: aquamarine;
+    padding: 10px;
+}
+.formContato form input{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.testemunhos {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* border: #080066 solid 1px; */
+    justify-content: space-between;
+}
+.testemunhos div {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20%;
+    width: 300px;
+    box-shadow: rgb(158, 158, 158) 0px 05px 10px 0px;
+    min-height: 350px;
+    /* border: #080066 solid 1px; */
+}
+.testemunhos div img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.testemunhos div > p {
+    padding: 5px;
+    text-align: justify;
+}
+.testemunhos div .nomeT {
+    margin: 10px auto;
+}
+.depoimentos {
+    background-image: url(/assets/img/gondolas-fundo-topo.jpg);
+    background-size: cover;
+}
