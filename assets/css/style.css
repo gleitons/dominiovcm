@@ -350,17 +350,24 @@ footer {
     }
     .sobreABG {
         display: block;
+        width: 100%;
     }
     .sobreABG img{
         width: 100%;    
                
     }
-    .titlesBG {
-        width: 100%;
+    .titlesBG div {
+        border: #000000 solid 1px;
+        width: 300px;
+        margin-left: -5px;
     }
+    
     .testemunhos {
         width: 100%;
         display: block;
+    }
+    .depoimentos {
+        width: 360px;
     }
     .depoimentos div {
         margin: 10px;
@@ -374,10 +381,20 @@ footer {
         display: block;
         
     }
+    .imagemC a img {
+        width: 100%;
+    }
+    .imagemC {
+        /* margin-left: -30px; */
+    }
     .orcaG img{
-        width: 360px;
+        width: 100%;
     }
     .testemunhos div p {
         font-size: 25px;
+    }
+    .whats a img{
+        width: 250px;
+        margin-right: 0px;
     }
 }
