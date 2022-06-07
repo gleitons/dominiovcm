@@ -125,7 +125,7 @@ form input{
     justify-content: space-between;
 }
 .sobreABG img{
-    width: 25%;    
+    width: 30%;    
     padding-top: 2%;
     /* border: black 1px solid; */
     margin-left: 10%;
@@ -372,15 +372,17 @@ footer {
     .depoimentos div {
         margin: 10px;
     }
-    .formContato form {
-        width: 100%;
-    }
     .formContato {
+        border: black;
         margin: auto;
         width: 100%;
         display: block;
         
     }
+    .formContato form {
+        width: 100%;
+    }
+   
     .imagemC a img {
         width: 100%;
     }
