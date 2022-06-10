@@ -1,3 +1,20 @@
+const menuA = document.getElementById('logoAlex');
+
+console.log(menuA)
+document.getElementById('menuB').innerHTML = `<a href='/' >
+<div id='logoAlex'>
+    <div class='img'>
+        <img src='./assets/img/alex-brasil-brasil.png' alt=''>
+        <div>
+            <h1>ALEX BRASIL</h1>
+            <h2>Gôndolas e equipamentos Comerciais</h2>
+        </div>
+    </div>
+
+</div>
+</a>`;
+
+
 function mechame() {
     alert("PROCURE POR ALEX BRASIL");
     location.href = "https://goo.gl/maps/n5TCHiNU2Hb5weK86";

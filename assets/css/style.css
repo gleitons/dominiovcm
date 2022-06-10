@@ -28,9 +28,37 @@ header {
     font-size: 20px;
     list-style: none;    
 }
+.menuTop > a{
+    text-decoration: none;
+    color: #000000;
+}
 .menuTop ul a {
+    text-align: center;
     text-decoration: none; 
     color: var(--cp);   
+    transition: 200ms;
+}
+.menuTop ul a:hover {
+    font-weight: 800;  
+    text-align: center;
+}
+.menuTop div .img {
+    width: 360px;
+    display: flex;
+    align-items: center;
+}
+.menuTop div .img  img{
+    width: 81px;
+    
+}
+.menuTop div .img div h1{
+    font-size: 45px;
+    
+}
+.menuTop div .img div h2{
+    font-size: 15px;
+    color: var(--cp);
+    
 }
 .topo {
     margin-left: 0px;
