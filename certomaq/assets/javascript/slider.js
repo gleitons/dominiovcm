@@ -1,3 +1,7 @@
+document.getElementById('vendeSite').innerHTML =  "* ESTE NÃO É O SITE OFICIAL, PARA ACESSAR O OFICIAL, DIGITE O .COM.BR NO FINAL, O ADQUIRA ESTE DOMINIO PARA NÃO TER MAIS ERROS"
+
+
+
 const menuA = document.getElementById('logoAlex');
 
 console.log(menuA)
